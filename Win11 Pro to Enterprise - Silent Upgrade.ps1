@@ -41,8 +41,7 @@ activated.
 $ErrorActionPreference = 'Stop'
 
 # === [1] SET YOUR MAK HERE ===
-$MAK = 'INSERT PRODUCT KEY HERE'   # Example:
-AAAAA-BBBBB-CCCCC-DDDDD-EEEEE
+$MAK = 'INSERT PRODUCT KEY HERE'   # Example:AAAAA-BBBBB-CCCCC-DDDDD-EEEEE
 
 # === [2] CONFIGURATION ===
 $LogPath = 'C:\ProgramData\WinEntUpgrade\upgrade.log'
@@ -189,5 +188,6 @@ catch {
   ($bad3 | ConvertTo-Json -Compress) | Write-Output
   exit 2
 }
+
 
 Page 9 of 10 Page 10 of 10
