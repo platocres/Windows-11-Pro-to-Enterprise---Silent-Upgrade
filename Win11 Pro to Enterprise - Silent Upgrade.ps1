@@ -17,7 +17,7 @@ key, and activates it.
   - Returns JSON summary for easy RMM parsing
   - Exit 0 = success, Exit 2 = error
 
-.OUTPUT
+.OUTPUTS
 If already Enterprise + activated:
   === Enterprise flip + activation (MAK) as: nt authority\system ===
   Current: Edition=Enterprise; Activated=True; KeyTail=63BPF
@@ -188,4 +188,5 @@ catch {
   ($bad3 | ConvertTo-Json -Compress) | Write-Output
   exit 2
 }
+
 
