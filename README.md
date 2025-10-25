@@ -15,30 +15,6 @@ Unlike most activation scripts, this one:
 
 ---
 
-## Example Outputs
-
-If Windows 11 was already Enterprise + activated:
-```powershell
-=== Enterprise flip + activation (MAK) as: nt authority\system ===
-  Current: Edition=Enterprise; Activated=True; KeyTail=63BPF
-  {"ok":true,"message":"Already Enterprise and
-activated","edition":"Enterprise","keyTail":"63BPF"}
-```
-
-If Windows 11 was not activated yet (or was on Pro edition):
-```powershell
-=== Enterprise flip + activation (MAK) as: nt authority\system ===
-  Current: Edition=Pro; Activated=False; KeyTail=
-  Installing MAK key via WMI...
-  Activating via WMI...
-  Final: Edition=Enterprise; Activated=True; KeyTail=63BPF
-  {"ok":true,"message":"Enterprise
-activated","edition":"Enterprise","keyTail":"63BPF"}
-  SUCCESS - This machine now has Enterprise edition and is permanently
-activated.
-```
-
-
 ## Features
 
 | Feature | Description |
