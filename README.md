@@ -17,13 +17,13 @@ Unlike most activation scripts, this one:
 
 ## Example Outputs
 
-#If Windows 11 was already Enterprise + activated:
+# If Windows 11 was already Enterprise + activated:
   === Enterprise flip + activation (MAK) as: nt authority\system ===
   Current: Edition=Enterprise; Activated=True; KeyTail=63BPF
   {"ok":true,"message":"Already Enterprise and
 activated","edition":"Enterprise","keyTail":"63BPF"}
 
-#If Windows 11 was not activated yet (or was on Pro edition):
+# If Windows 11 was not activated yet (or was on Pro edition):
   === Enterprise flip + activation (MAK) as: nt authority\system ===
   Current: Edition=Pro; Activated=False; KeyTail=
   Installing MAK key via WMI...
