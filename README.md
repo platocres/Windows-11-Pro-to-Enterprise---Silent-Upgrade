@@ -160,5 +160,5 @@ Location: `C:\ProgramData\WinEntUpgrade\upgrade.log`
 ---
 
 ## License
-No license 
-Author: Brandon Jones  
+# No license 
+# Author: Brandon Jones  
